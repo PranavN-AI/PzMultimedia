@@ -160,13 +160,13 @@ body {
     height: 42px;
     width: auto;
     transition: transform 0.3s ease, filter 0.3s ease;
-    filter: saturate(1.5) contrast(1.15) brightness(1.05);
+    filter: brightness(0) saturate(100%);
     border-radius: 8px;
 }
 
 .nav-logo:hover img {
     transform: rotate(360deg) scale(1.08);
-    filter: saturate(1.7) contrast(1.2) brightness(1.1);
+    filter: brightness(0.15) saturate(100%);
 }
 
 .nav-logo span {
